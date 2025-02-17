@@ -31,6 +31,10 @@
 
 ### 模型訓練(在Google Colab上執行)
 在 `fruit.ipynb` 中，使用 TensorFlow 和 Keras 訓練了一個卷積神經網絡（CNN）模型，`fruit_model.keras`的訓練過程包括數據增強和預處理。
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
 ### 預測
 使用訓練好的模型，在 `prediction_web.py` 中建立了一個 Streamlit 應用，用於上傳圖片並進行預測。
@@ -358,8 +362,9 @@ plt.show()
 
 
 ## 14.Streamlit 應用
-- 使用訓練好的模型，在 `prediction_web.py` 中建立了一個 Streamlit 應用，用於上傳圖片並進行預測     
-![辨識](https://github.com/user-attachments/assets/1a11083e-24af-46f2-ba90-efbee0784271)
+- 使用訓練好的模型，在 `prediction_web.py` 中建立了一個 Streamlit 應用，用於上傳圖片並進行預測
+- 在cmd上執行 `streamlit run d:/Fruits-and-Vegetables-Recognition-main/prediction_web.py`     
+![辨識](https://github.com/user-attachments/assets/e9a5de80-f6c8-418f-b944-9bceca5ae9ac)
 
 
 
