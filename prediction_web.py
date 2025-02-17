@@ -1,4 +1,4 @@
-# streamlit run d:/03_fruit/prediction_web.py
+# streamlit run d:/Fruits-and-Vegetables-Recognition-main/prediction_web.py
 
 import streamlit as st 
 import numpy as np  
@@ -48,13 +48,13 @@ st.markdown(
 )
 
 # 載入標籤對應表
-json_path = r"D:\03_fruit\label_dict.json"
+json_path = r"D:\Fruits-and-Vegetables-Recognition-main\label_dict.json"
 
 with open(json_path, 'r', encoding='utf-8') as f:
     label_dict = json.load(f)
 
 # 載入模型
-model = tf.keras.models.load_model('D:\\03_fruit\\fruit_model.keras', compile=False)
+model = tf.keras.models.load_model('D:\\Fruits-and-Vegetables-Recognition-main\\fruit_model.keras', compile=False)
 
 # 頁面標題
 st.markdown("<div class='stTitle'>🍎 蔬果圖片辨識 🍌</div>", unsafe_allow_html=True)

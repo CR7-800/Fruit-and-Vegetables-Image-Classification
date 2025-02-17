@@ -4,7 +4,7 @@ import os
 import json
 
 # 定義基礎路徑
-base_path = 'D:\\03_fruit'
+base_path = 'D:\\Fruits-and-Vegetables-Recognition-main'
 
 # 定義目錄結構
 directories = ['train', 'test', 'validation']
