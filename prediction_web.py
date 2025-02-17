@@ -60,7 +60,7 @@ model = tf.keras.models.load_model('D:\\03_fruit\\fruit_model.keras', compile=Fa
 st.markdown("<div class='stTitle'>🍎 蔬果圖片辨識 🍌</div>", unsafe_allow_html=True)
 
 # 上傳圖片
-uploaded_file = st.file_uploader("上傳圖片 (.jpg, .png)", type=["jpg", "png"], help="Drag and drop or click to select an image", label_visibility='visible')
+uploaded_file = st.file_uploader("上傳圖片 (.jpg, .png, .jpeg)", type=["jpg", "png", "jpeg"], help="Drag and drop or click to select an image", label_visibility='visible')
 img_size = (224, 224, 3)
 
 if uploaded_file is not None:
