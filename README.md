@@ -1,5 +1,5 @@
 ---
-title: Fruit Image Classification
+title: Fruit and Vegetables Image Classification
 emoji: 🦀
 colorFrom: yellow
 colorTo: green
