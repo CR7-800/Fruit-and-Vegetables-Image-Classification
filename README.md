@@ -14,7 +14,7 @@
 11. [獲取並顯示標籤對應表](#11獲取並顯示標籤對應表)
 12. [載入最佳模型並使用測試數據進行預測](#12載入最佳模型並使用測試數據進行預測)
 13. [顯示混淆矩陣](#13顯示混淆矩陣)
-14. [Streamlit 應用](#14streamlit-應用)
+14. [Hugging Face Spaces 應用](#14hugging-face-spaces-應用)
 15. [結論](#15結論)
 
 
@@ -37,7 +37,8 @@ drive.mount('/content/drive')
 ```
 
 ### 預測
-使用訓練好的模型，在 `prediction_web.py` 中建立了一個 Streamlit 應用，用於上傳圖片並進行預測。
+使用訓練好的模型，在 `app.py` 中建立了一個 Streamlit 應用，允許使用者上傳圖片並進行水果與蔬菜辨識。    
+該應用已部署於 **Hugging Face Spaces**，可直接透過瀏覽器使用，無需手動執行程式。
 
 
 
@@ -361,10 +362,12 @@ plt.show()
 
 
 
-## 14.Streamlit 應用
-- 使用訓練好的模型，在 `prediction_web.py` 中建立了一個 Streamlit 應用，用於上傳圖片並進行預測
-- 在cmd上執行 `streamlit run d:/Fruits-and-Vegetables-Recognition-main/prediction_web.py`     
-![辨識](https://github.com/user-attachments/assets/e9a5de80-f6c8-418f-b944-9bceca5ae9ac)
+## 14.Hugging Face Spaces 應用
+- 本專案的 Streamlit 應用已成功部署至 Hugging Face Spaces 
+- 你可以透過以下連結直接使用應用：[點此進入](https://huggingface.co/spaces/CR7-800/fruit-image-classification)    
+![辨識](https://github.com/user-attachments/assets/14953dea-faac-4738-90aa-4a7aeb258555)
+
+
 
 
 
