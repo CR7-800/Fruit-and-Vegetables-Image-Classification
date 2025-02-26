@@ -37,8 +37,9 @@ drive.mount('/content/drive')
 ```
 
 ### 預測
-使用訓練好的模型，在 `app.py` 中建立了一個 Streamlit 應用，允許使用者上傳圖片並進行水果與蔬菜辨識。    
-該應用已部署於 **Hugging Face Spaces**，可直接透過瀏覽器使用，無需手動執行程式。
+使用訓練好的模型，在 `app.py` 中建立了一個 Streamlit 應用，允許使用者上傳圖片並進行水果與蔬菜辨識。
+該應用已部署於 **Hugging Face Spaces**，無需手動下載程式並執行，可直接在線上測試。
+👉 [**點此使用**](https://huggingface.co/spaces/CR7-800/fruit-image-classification)
 
 
 
