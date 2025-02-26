@@ -1,4 +1,15 @@
-# Fruits and Vegetables Image Recognition
+---
+title: Fruit Image Classification
+emoji: 🦀
+colorFrom: yellow
+colorTo: green
+sdk: streamlit
+sdk_version: 1.42.2
+app_file: app.py
+pinned: false
+---
+
+# Fruit and Vegetables Image Classification
 
 ## 目錄
 1. [描述](#1描述)
