@@ -31,10 +31,10 @@ pinned: false
 
 
 ## 1.描述
-## 使用從 Kaggle 取得的水果和蔬菜圖像識別數據集
+## 使用從 `Kaggle` 取得的水果和蔬菜圖像識別數據集
 ## 資料來源：[Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition/data)  
 
-透過 Kaggle 上的 Fruits and Vegetables Image Recognition Dataset，建立一個模型來辨識水果和蔬菜的圖片，並通過網頁應用進行預測。
+透過 `Kaggle` 上的 `Fruits and Vegetables Image Recognition Dataset`，建立一個模型來辨識水果和蔬菜的圖片，並通過網頁應用進行預測。
 
 ### 資料集
 資料集包含多種水果和蔬菜的圖片，分為訓練、測試和驗證三個部分。  
@@ -50,7 +50,7 @@ drive.mount('/content/drive')
 ### 預測
 使用訓練好的模型，在 `app.py` 中建立了一個 Streamlit 應用，允許使用者上傳圖片並進行水果與蔬菜辨識。    
 該應用已部署於 **Hugging Face Spaces**，無需手動下載程式並執行，可直接在線上測試。
-👉 [**點此使用**](https://huggingface.co/spaces/CR7-800/fruit-image-classification)
+👉 [**點此使用**](https://huggingface.co/spaces/CR7-800/Fruit-and-Vegetables-Image-Classification)
 
 
 
@@ -376,7 +376,7 @@ plt.show()
 
 ## 14.Hugging Face Spaces 應用
 - 本專案的 Streamlit 應用已成功部署至 Hugging Face Spaces 
-- 你可以透過以下連結直接使用應用：[點此進入](https://huggingface.co/spaces/CR7-800/fruit-image-classification)    
+- 你可以透過以下連結直接使用應用：[點此進入](https://huggingface.co/spaces/CR7-800/Fruit-and-Vegetables-Image-Classification)    
 ![辨識](https://github.com/user-attachments/assets/14953dea-faac-4738-90aa-4a7aeb258555)
 
 
