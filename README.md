@@ -380,9 +380,6 @@ print("Actual labels:",actual_labels)
 ### 13.顯示混淆矩陣
 - 評估模型在測試數據上的預測效果
 ```python
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
-import matplotlib.pyplot as plt
-
 true_classes = test_generator.classes
 pred_classes = predicted_classes
 
