@@ -179,7 +179,7 @@ for category in train_df['Label'].unique():
     first_images[category] = train_df[train_df['Label'] == category]['Filepath'].values[0]
 
 plt.figure(figsize=(15,10))
-for i, (category, image_path) in enumerate(first_images.items()):
+for i,(category,image_path) in enumerate(first_images.items()):
     image = Image.open(image_path)
     plt.subplot(6,6,i+1) # i+1 是因為 subplot 從 1 開始
     plt.imshow(image)
@@ -313,7 +313,7 @@ history = model.fit(train_generator, # 使用訓練集數據
 result = pd.DataFrame(history.history)
 
 # 創建子圖
-fig, axes = plt.subplots(1,2,figsize=(15, 5))
+fig,axes = plt.subplots(1,2,figsize=(15,5))
 
 # 繪製準確率曲線
 result[['accuracy','val_accuracy']].plot(ax=axes[0])
@@ -342,7 +342,7 @@ plt.show()
 label_map = train_generator.class_indices
 
 # 反轉字典以便於查詢
-label_map = {v:k for k, v in label_map.items()}
+label_map = {v:k for k,v in label_map.items()}
 
 # 顯示標籤對應表
 print(label_map)
