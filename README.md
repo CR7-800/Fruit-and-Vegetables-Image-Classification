@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Fruit and Vegetables Image Classification
+# Fruit and Vegetables Image Classification [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/CR7-800/Fruit-and-Vegetables-Image-Classification)
 
 ## 資料來源
 包含多種水果圖像的資料集，適合用於圖像分類和計算機視覺任務  
